@@ -17,5 +17,5 @@ const main = async (): Promise<void> => {
 };
 
 if (require.main === module) {
-    main()
+    main().then(() => process.exit(0)).catch(() => process.exit(1));
 }

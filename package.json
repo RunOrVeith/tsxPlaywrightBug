@@ -1,20 +1,17 @@
 {
-  "name": "tsxplaywrightbug",
+  "name": "playwright-bug-reproducer",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "playwright": "^1.45.1",
-    "tsx": "4.15.0",
-    "typescript": "^5.5.3"
+    "playwright": "^1.47.2",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
   },
   "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a",
   "devDependencies": {
-    "@types/node": "^20.14.9"
+    "@types/node": "^22.5.5"
   }
 }

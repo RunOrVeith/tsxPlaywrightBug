@@ -14,8 +14,11 @@
                 "tsx"
             ],
             "args": [
-                "${workspaceFolder}/index.ts"
+                "${file}"
             ],
+            "env": {
+                "PWDEBUG": "console"
+            },
             "outputCapture": "std",
         },
     ]
